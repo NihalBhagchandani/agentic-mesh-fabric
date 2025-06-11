@@ -24,7 +24,7 @@ In this architecture, **domain-owned agents** interact with **domain-owned data 
 
 ## 🛠️ Reference Stack
 
-See [agentic-mesh-fabric-spec.md](agentic-mesh-fabric-spec.md) for recommended tools and architecture.
+See [agentic-mesh-fabric-spec.md](spec.md) for recommended tools and architecture.
 
 ---
 
