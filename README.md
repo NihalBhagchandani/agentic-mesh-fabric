@@ -12,7 +12,7 @@ In this architecture, **domain-owned agents** interact with **domain-owned data 
 
 ## 📚 Architecture Specification
 
-→ Full spec: [agentic-mesh-fabric-spec.md](agentic-mesh-fabric-spec.md)
+→ Full spec: [agentic-mesh-fabric-spec.md](spec.md)
 
 ---
 
