@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "js": {
+      "command": "/usr/local/bin/mcp-v8 --s3-bucket my-bucket-name"
+    }
+  }
+}
