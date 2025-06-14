@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "kubernetes": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-v",
+        "/Users/YOUR_USER_NAME/.kube:/home/appuser/.kube:ro",
+        "ghcr.io/alexei-led/k8s-mcp-server:latest"
+      ]
+    }
+  }
+}
