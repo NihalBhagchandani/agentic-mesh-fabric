@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "okta-mcp-server": {
+      "command": "docker",
+      "args": [
+        "run", "-i", "--rm",
+        "-e", "OKTA_CLIENT_ORGURL",
+        "-e", "OKTA_API_TOKEN",
+        "fctrid/okta-mcp-server-stdio:latest"
+      ],
+      "env": {
+        "OKTA_CLIENT_ORGURL": "https://your-org.okta.com",
+        "OKTA_API_TOKEN": "your_api_token"
+      }
+    }
+  }
+}
