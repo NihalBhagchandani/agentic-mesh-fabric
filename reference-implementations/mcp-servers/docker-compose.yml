@@ -6,4 +6,12 @@ services:
       - ~/.kube:/home/appuser/.kube:ro
     ports:
       - "8081:8080"
+  
+  okta-mcp-server:
+    image: fctrid/okta-mcp-server-stdio:latest
+    environment:
+      OKTA_CLIENT_ORGURL: "https://your-org.okta.com"
+      OKTA_API_TOKEN: "your_api_token"
+    ports:
+      - "8082:8080"
   # Add other MCP servers as needed
