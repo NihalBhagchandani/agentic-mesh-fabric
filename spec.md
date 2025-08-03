@@ -15,12 +15,12 @@
 
 ✅ **Data Mesh** → domain-owned data and agents  
 ✅ **Data Fabric** → semantic discovery, lineage, and policy enforcement  
-✅ **Agentic AI** → autonomous, tool-using agents powered by **Model Context Protocol (MCP)**  
+✅ **Agentic AI** → autonomous, tool-using agents powered by **Connectors / MCPs(Model Context Protocol)**  
 
 In this architecture:
 
 - **Domains own both their data products AND agents**  
-- Agents interact with data via **MCP servers**  
+- Agents interact with data via connected Context servers or systems  
 - A **Fabric layer** provides **semantic abstraction**, **catalog/discovery**, **lineage**, and **policy enforcement**  
 
 ---
@@ -108,10 +108,10 @@ In this architecture:
 
 # Governance
 
-✅ All agents and MCP runtimes use SSO-based identities (Okta, AzureAD)  
+✅ All agents and Connectors/MCP runtimes use SSO-based identities (Okta, AzureAD)  
 ✅ Policy-as-code enforced via OPA / Rego  
-✅ All MCP calls are logged  
-✅ Full lineage maintained via OpenLineage  
+✅ All Connectors/MCP calls are logged  
+✅ Full lineage maintained  
 
 ---
 
