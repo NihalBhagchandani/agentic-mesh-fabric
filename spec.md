@@ -32,11 +32,11 @@ In this architecture:
 - **Domain ownership of:**
   - Data products
   - AI agents
-  - MCP servers  
+  - Connectors / MCP servers
 
 - **Decentralization:**
   - No central bottlenecks
-  - Domains innovate independently  
+  - Domains innovate independently
 
 - **Product thinking:**
   - Data and agents treated as first-class products  
@@ -93,14 +93,14 @@ In this architecture:
 - User/system triggers agent  
 - Agent plans workflow (LangGraph)  
 - Agent queries Fabric for:
--- Data discovery
--- Other agent discovery
--- Semantic definitions  
+  - Data discovery
+  - Other agent discovery
+  - Semantic definitions  
 - Agent plans next actions  
 - Agent uses MCP Runtime:
--- Access MCP Servers  
+    - Access MCP Servers  
 - Fabric tracks lineage:
--- Logs agent→data interaction  
+    - Logs agent→data interaction  
 - Agent returns response  
 - Governance enforces policies & audits actions  
 
